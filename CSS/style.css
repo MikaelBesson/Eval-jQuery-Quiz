@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+#contain {
+    width: 90%;
+    height: 80vh;
+    border: 1px solid black;
+    background-image: url("../images/fondQuiz.jpg");
+    background-size: cover;
+    margin:auto;
+}
+h1  {
+    font-size: 40px;
+    text-align: center;
+    color: gold;
+    margin-top: 10px;
+    font-family: 'Star Jedi', arial, serif;
+    text-shadow: 3px 4px 2px rgb(0, 0, 0);
+}
+h2 {
+    font-size: 40px;
+    color: gold;
+    text-shadow: 3px 4px 2px rgb(229, 18, 18);
+}
+
+#startBox  {
+    text-align: center;
+    margin-top: 20px;
+}
+#start {
+    font-size: 20px;
+    color: gold;
+    border: none;
+    background-color: transparent;
+    font-family: 'Star Jedi', arial, serif;
+    text-shadow: 3px 4px 2px rgb(229, 18, 18);
+}
+
+#questBox {
+    width: 40%;
+    height: 5vh;
+    text-align: center;
+    font-family: Roboto Light, Arial, serif;
+    margin: 10vh auto auto;
+    border-radius: 30%;
+    padding: 3px;
+
+}
+
+#question {
+    font-size: 25px;
+    color: black;
+    text-shadow: 3px 4px 10px rgb(229, 18, 18);
+    background-color: antiquewhite;
+}
+
+#reponseBox {
+    width: 80%;
+    margin: 5vh auto auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto Light, Arial, serif;
+    border-radius: 30%;
+    padding: 3px;
+}
+
+#r1, #r2, #r3 {
+    border: 1px solid brown;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 3px;
+
+}
+
+#validBox {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#valid {
+    border-color: chartreuse;
+    padding: 2px;
+    box-shadow: 2px 2px chartreuse;
+}
+#scoreBox {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
