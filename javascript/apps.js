@@ -82,7 +82,7 @@ let questions =
         {
             question: "Avez vous aimez ce Quiz ???",
             choix:
-                ["realisez par",
+                ["realisé par",
                     "groot",
                     "rechargez pour rejouez ?"],
         },
@@ -92,6 +92,7 @@ score = 0;
 let index = 0;
 let reponseJoueur;
 $("h2,#question,#r1,#r2,#r3,#valid").hide();
+$("#restart").hide();
 
 // lacement de la partie
 
@@ -119,6 +120,7 @@ $("#valid").click(function () {
     $("#r2").html((questions[index]).choix[1]);
     $("#r3").html((questions[index]).choix[2]);
     scorespan.innerHTML = "bonne reponse "+score;
+    reStart();
 })
 
 //verification de la reponse choisi
@@ -139,6 +141,16 @@ function check() {
     } else {
         $("#message").html("Perdu la bonne reponse etait : "+questions[index].bonneReponse);
     }
+}
+
+function reStart(){
+    if(index === 10){
+        $("#valid").hide();
+        $("#restart").show();
+    }
+    $("#restart").click(function (){
+        document.location.reload();
+    })
 }
 
 
