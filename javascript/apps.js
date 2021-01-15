@@ -137,7 +137,8 @@ function check() {
         score++;
         console.log("score = "+score);
     } else {
-        $("#message").html("Perdu c'est pas la bonne reponse !");
+        $("#message").html("Perdu la bonne reponse etait : "+questions[index].bonneReponse);
+
     }
 }
 

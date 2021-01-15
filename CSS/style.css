@@ -50,7 +50,6 @@ h2 {
     width: 40%;
     height: 5vh;
     text-align: center;
-    font-family: 'Star Jedi', Light, Arial, serif;
     margin: 10vh auto auto;
     border-radius: 30%;
     padding: 3px;
@@ -59,6 +58,7 @@ h2 {
 
 #question {
     font-size: 25px;
+    font-family: roboto, Light, Arial, serif;
     color: black;
     text-shadow: 3px 4px 10px rgb(229, 18, 18);
     background-color: antiquewhite;
@@ -106,12 +106,15 @@ h2 {
 }
 
 #message {
-    font-size: larger;
-    padding: 3px;
+    font-size: 30px;
+    padding: 5px;
+    margin: auto;
     border-radius: 25px;
-    font-family: 'Star Jedi', arial, serif;
+    font-family: Roboto, arial, serif;
     color: gold;
-    text-shadow: 3px 4px 2px rgb(229, 18, 18);
+    background-color: #538080;
+    text-shadow: 3px 4px 2px rgb(255, 0, 0);
+
 }
 
 #score {
