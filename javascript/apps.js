@@ -85,7 +85,6 @@ let questions =
                 ["realisez par",
                     "groot",
                     "rechargez pour rejouez ?"],
-
         },
     ];
 let scorespan = document.getElementById("score");
@@ -138,7 +137,6 @@ function check() {
         console.log("score = "+score);
     } else {
         $("#message").html("Perdu la bonne reponse etait : "+questions[index].bonneReponse);
-
     }
 }
 
