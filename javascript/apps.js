@@ -91,15 +91,17 @@ let scorespan = document.getElementById("score");
 score = 0;
 let index = 0;
 let reponseJoueur;
-
+$("h2,#question,#r1,#r2,#r3,#valid").hide();
 
 // lacement de la partie
 
 $("#start").click(function () {
-    $("#question").html((questions[0]).question);
-    $("#r1").html((questions[0]).choix[0]);
-    $("#r2").html((questions[0]).choix[1]);
-    $("#r3").html((questions[0]).choix[2]);
+    $("h2").show();
+    $("#question").html((questions[0]).question).show();
+    $("#r1").html((questions[0]).choix[0]).show();
+    $("#r2").html((questions[0]).choix[1]).show();
+    $("#r3").html((questions[0]).choix[2]).show();
+    $("#valid").show();
 })
 
 //passez a la question suivante
