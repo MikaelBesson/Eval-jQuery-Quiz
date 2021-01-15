@@ -19,7 +19,7 @@ body {
 }
 #contain {
     width: 90%;
-    height: 80vh;
+    height: auto;
     border: 1px solid black;
     background-image: url("../images/fond.jpg");
     background-size: cover;
@@ -118,4 +118,49 @@ h2 {
     font-size: xx-large;
     color: gold;
     text-shadow: 3px 4px 2px rgb(229, 18, 18);
+}
+
+@media screen and (max-width:1000px) {
+    #contain {
+        width: 100%;
+        height: auto;
+        margin: initial;
+        display: flex;
+        flex-direction: column;
+    }
+    #questBox {
+        margin-top: 1vh;
+    }
+
+    h2 {
+        margin-top: 2vh;
+    }
+    #reponseBox {
+        margin-top: 15vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #contain {
+        width: 100%;
+        height: auto;
+        margin: initial;
+        display: flex;
+        flex-direction: column;
+    }
+    #questBox {
+        margin-top: 1vh;
+    }
+
+    h2 {
+        margin-top: 1vh;
+    }
+    #reponseBox {
+        margin-top: 20vh;
+    }
+    #r1, #r2, #r3 {
+        border: 1px solid brown;
+        font-size: 20px;
+        padding: 2px;
+    }
 }

@@ -1,6 +1,6 @@
 let questions =
     [{
-        question: "L’ordre des épisodes 1, 2 et 3 est le suivant :",
+        question: "L’ordre des épisodes 4, 5 et 6 est le suivant :",
         choix:
             ["1-Un Nouvel espoir 2-L’Empire contre-attaque 3-Le Retour du Jedi",
                 " 1-La Menace fantôme 2-L’Empire contre-attaque  3-La Revanche des Sith",
@@ -134,7 +134,6 @@ function check() {
     if (reponseJoueur === questions[index].bonneReponse) {
         $("#message").html("Bravo bonne reponse !!");
         score++;
-        console.log("score = "+score);
     } else {
         $("#message").html("Perdu la bonne reponse etait : "+questions[index].bonneReponse);
     }
