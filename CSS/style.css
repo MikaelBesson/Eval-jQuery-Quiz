@@ -104,12 +104,11 @@ h2 {
     border-radius: 25px;
     font-family: Roboto, arial, serif;
     color: gold;
-    background-color: #538080;
-    text-shadow: 3px 4px 2px rgb(255, 0, 0);
+    text-shadow: -2px 0 5px rgb(248, 7, 7);
 }
 
 #score {
-    font-family: Star Jedi, serif;
+    font-family: Star Jedi, arial, serif;
     font-size: xx-large;
     color: gold;
     text-shadow: 3px 4px 2px rgb(229, 18, 18);
