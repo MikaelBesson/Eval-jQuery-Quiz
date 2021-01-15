@@ -24,7 +24,7 @@ h1  {
     text-align: center;
     color: gold;
     margin-top: 10px;
-    font-family: 'Star Jedi', arial, serif;
+    font-family: Star Jedi, arial, serif;
     text-shadow: 3px 4px 2px rgb(0, 0, 0);
 }
 h2 {
@@ -42,7 +42,7 @@ h2 {
     color: gold;
     border: none;
     background-color: transparent;
-    font-family: 'Star Jedi', arial, serif;
+    font-family: Star Jedi, arial, serif;
     text-shadow: 3px 4px 2px rgb(229, 18, 18);
 }
 
@@ -53,7 +53,6 @@ h2 {
     margin: 10vh auto auto;
     border-radius: 30%;
     padding: 3px;
-
 }
 
 #question {
@@ -69,7 +68,7 @@ h2 {
     margin: 10vh auto auto;
     text-align: center;
     font-size: 20px;
-    font-family: 'Star Jedi', Light, Arial, serif;
+    font-family: Star Jedi, Light, Arial, serif;
     border-radius: 30%;
     padding: 3px;
 }
@@ -79,7 +78,6 @@ h2 {
     margin-top: 5px;
     font-size: 20px;
     padding: 3px;
-
 }
 
 #validBox {
@@ -92,12 +90,6 @@ h2 {
     padding: 2px;
     box-shadow: 2px 2px chartreuse;
 }
-
-#rejouez {
-    display:none;
-}
-
-
 
 #scoreBox {
     text-align: center;
@@ -114,11 +106,10 @@ h2 {
     color: gold;
     background-color: #538080;
     text-shadow: 3px 4px 2px rgb(255, 0, 0);
-
 }
 
 #score {
-    font-family: 'Star Jedi', arial, serif;
+    font-family: Star Jedi, arial, serif;
     font-size: xx-large;
     color: gold;
     text-shadow: 3px 4px 2px rgb(229, 18, 18);
